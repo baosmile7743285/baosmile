@@ -1,0 +1,58 @@
+html{
+    background-color: #174A84;
+    margin: auto;
+    max-width: 720px;
+}
+.login-container{
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.form-group h3{
+    font-size: 18;
+    font-weight: regular;
+    font-family: roboto;
+    padding-bottom: 20px;
+    color: #174A84;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 25%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form .btnSubmit{
+    font-weight: 300;
+    color: #fff;
+    background-color: #174A84;
+}
+.login-form .Register{
+    color: #66A6FF;
+    font-weight: Regular;
+    text-decoration: none;
+    font-size: 14;
+    font-family: Roboto;
+}
+.form-label{
+    font-size: 10;
+    color: #174A84;
+}
+input.form-control{
+    border-color: #174A84;
+}
+@media only screen and (max-width: 500px)
+{
+    img{
+        width: 0;
+        height: 0;
+    }
+    .login-container{
+    margin-top: 30%;
+    margin-bottom: 40%;
+    }
+}
